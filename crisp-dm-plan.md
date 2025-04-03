@@ -64,6 +64,7 @@ This document outlines the plan for developing a property price prediction model
     *   Start with baseline models (e.g., Linear Regression, Ridge, Lasso).
     *   Explore tree-based models (Decision Tree, Random Forest).
     *   Consider gradient boosting models (XGBoost, LightGBM) for potentially higher accuracy.
+    *   Explore advanced neural networks.
     *   Assumptions: Linear models assume linearity and independence. Tree models are generally non-parametric. Note any specific data requirements for each model.
 *   **Generate Test Design:**
     *   Use the held-out test set for final evaluation.
@@ -78,15 +79,15 @@ This document outlines the plan for developing a property price prediction model
     *   Compare models based on technical criteria and select the best performing one(s).
     *   Check for overfitting by comparing training set performance to validation/test set performance.
 
-    In the modeling phase (step 4 of CRISP-DM), you typically explore and apply various data mining techniques based on the problem at hand. use these techniques.
+    In the modeling phase (step 4 of CRISP-DM), you typically explore and apply various data mining techniques based on the problem at hand. use these techniques:
 
-Classification: Methods such as decision trees, support vector machines, logistic regression, and neural networks that help predict categorical outcomes.
+    Classification: Methods such as decision trees, support vector machines, logistic regression, and neural networks that help predict categorical outcomes.
 
-Regression: Techniques like linear or polynomial regression to forecast continuous variables.
+    Regression: Techniques like linear or polynomial regression to forecast continuous variables.
 
-Clustering: Algorithms such as k-means or hierarchical clustering that group similar data points together.
+    Clustering: Algorithms such as k-means or hierarchical clustering that group similar data points together.
 
-Association Rule Mining: Approaches like the Apriori algorithm to uncover relationships between variables.
+    Association Rule Mining: Approaches like the Apriori algorithm to uncover relationships between variables.
 
 ## 5. Evaluation [✓ Completed]
 
